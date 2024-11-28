@@ -1,0 +1,129 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: coral;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {
+    padding: 40px;
+}
+.container h1{
+    font-size: xx-large;
+    font-weight: 900;
+    color: rgb(203, 31, 66);
+    background-color: rgb(27, 24, 19);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+#filterForm {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+#filterForm input {
+    padding: 10px 30px;
+    border: 3px solid rgb(203, 31, 66);
+    border-radius: 5px;
+}
+.btn {
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    padding: 10px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+
+}
+
+.productList {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: white;
+    gap: 15px;
+    padding: 30px;
+}
+.product-card {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+.footer-product {
+    font-weight: bolder;
+}
+.product-card img {
+    width: 100%;
+}
+.product-card h2 {
+    font-weight: bolder;
+    color: black;
+    background-color:white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    font-weight: 500;
+    font-weight: bolder;
+}
+.product-card h4 {
+    color: black;
+    font-weight: bold;
+}
+.product-card p {
+ color: black;
+}
+
+.product-tags {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: brown;
+}
+
